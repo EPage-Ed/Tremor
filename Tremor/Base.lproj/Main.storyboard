@@ -1,102 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zia-2f-z74">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
-        <scene sceneID="hNz-n2-bh7">
+        <!--SplashVC-->
+        <scene sceneID="cqv-JV-cGh">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="SplashVC" id="zia-2f-z74" customClass="SplashVC" customModule="Tremor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wor-Is-j1t">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" xcode11CocoaTouchSystemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" xcode11CocoaTouchSystemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seismograph" translatesAutoresizingMaskIntoConstraints="NO" id="zAh-fK-9fk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tremor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vug-Bs-Rpo">
+                                <rect key="frame" x="44" y="144" width="326.5" height="101.5"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="80"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="zAh-fK-9fk" firstAttribute="top" secondItem="Wor-Is-j1t" secondAttribute="top" id="O49-sv-M6B"/>
+                            <constraint firstAttribute="bottom" secondItem="zAh-fK-9fk" secondAttribute="bottom" id="aXA-50-NFJ"/>
+                            <constraint firstItem="Vug-Bs-Rpo" firstAttribute="centerX" secondItem="Wor-Is-j1t" secondAttribute="centerX" id="bNr-iJ-ADt"/>
+                            <constraint firstItem="Vug-Bs-Rpo" firstAttribute="top" secondItem="uZg-mJ-Azo" secondAttribute="top" constant="100" id="gxD-B8-wCY"/>
+                            <constraint firstItem="zAh-fK-9fk" firstAttribute="trailing" secondItem="uZg-mJ-Azo" secondAttribute="trailing" id="lHi-mF-bp9"/>
+                            <constraint firstItem="zAh-fK-9fk" firstAttribute="leading" secondItem="uZg-mJ-Azo" secondAttribute="leading" id="oaW-b1-OKo"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
+                        <viewLayoutGuide key="safeArea" id="uZg-mJ-Azo"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5zE-lq-TAV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="-320"/>
+            <point key="canvasLocation" x="320.28985507246381" y="-156.02678571428569"/>
         </scene>
-        <!--Second-->
-        <scene sceneID="wg7-f3-ORb">
+        <!--View Controller-->
+        <scene sceneID="s3T-5k-DLi">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="ViewController" id="m4g-NX-k81" customClass="ViewController" customModule="Tremor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RNi-RO-F2f">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Second View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <color key="textColor" xcode11CocoaTouchSystemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seismograph" translatesAutoresizingMaskIntoConstraints="NO" id="hlX-st-HSk">
+                                <rect key="frame" x="52" y="552" width="310" height="310"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="All Clear" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uZL-XA-TTK">
+                                <rect key="frame" x="41.5" y="183.5" width="331" height="81"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="64"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by SecondViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NDk-cv-Gan">
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" xcode11CocoaTouchSystemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cgB-Ek-Vmc">
+                                <rect key="frame" x="20" y="64" width="374" height="468"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shake" translatesAutoresizingMaskIntoConstraints="NO" id="Fxn-ed-ebh">
+                                        <rect key="frame" x="127" y="174" width="120" height="120"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="GbB-v8-9j4" appends="YES" id="Nr0-5T-6xl"/>
+                                        </connections>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Moderate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P40-dh-Ac6">
+                                        <rect key="frame" x="19.5" y="8" width="335.5" height="81"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="64"/>
+                                        <color key="textColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0:25" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Goe-nr-vKF">
+                                        <rect key="frame" x="89.5" y="348.5" width="195.5" height="111.5"/>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="88"/>
+                                        <color key="textColor" systemColor="systemTealColor" red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="Fxn-ed-ebh" firstAttribute="centerY" secondItem="cgB-Ek-Vmc" secondAttribute="centerY" id="Ota-2z-xMw"/>
+                                    <constraint firstItem="P40-dh-Ac6" firstAttribute="top" secondItem="cgB-Ek-Vmc" secondAttribute="top" constant="8" id="aqm-ks-Js0"/>
+                                    <constraint firstItem="Fxn-ed-ebh" firstAttribute="centerX" secondItem="cgB-Ek-Vmc" secondAttribute="centerX" id="pSf-jK-9Gn"/>
+                                    <constraint firstAttribute="bottom" secondItem="Goe-nr-vKF" secondAttribute="bottom" constant="8" id="pk0-67-hQl"/>
+                                    <constraint firstItem="Goe-nr-vKF" firstAttribute="centerX" secondItem="cgB-Ek-Vmc" secondAttribute="centerX" id="xVg-Zb-ZnI"/>
+                                    <constraint firstItem="P40-dh-Ac6" firstAttribute="centerX" secondItem="cgB-Ek-Vmc" secondAttribute="centerX" id="z3U-xX-3cD"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPw-6h-lSr">
+                                <rect key="frame" x="182" y="682" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="8JX-cE-LDv"/>
+                                    <constraint firstAttribute="height" constant="50" id="f1A-3L-JBc"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="quakeHit:" destination="m4g-NX-k81" eventType="touchUpInside" id="Jb2-In-UoW"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
-                            <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstItem="TPw-6h-lSr" firstAttribute="centerX" secondItem="hlX-st-HSk" secondAttribute="centerX" id="1mf-7a-7fU"/>
+                            <constraint firstItem="51o-et-nTv" firstAttribute="trailing" secondItem="cgB-Ek-Vmc" secondAttribute="trailing" constant="20" id="8Qc-uh-91d"/>
+                            <constraint firstItem="cgB-Ek-Vmc" firstAttribute="leading" secondItem="51o-et-nTv" secondAttribute="leading" constant="20" id="G6N-90-9v4"/>
+                            <constraint firstItem="cgB-Ek-Vmc" firstAttribute="top" secondItem="51o-et-nTv" secondAttribute="top" constant="20" id="Nzd-ck-UKb"/>
+                            <constraint firstItem="hlX-st-HSk" firstAttribute="centerX" secondItem="RNi-RO-F2f" secondAttribute="centerX" id="Upv-Q5-Xrm"/>
+                            <constraint firstItem="uZL-XA-TTK" firstAttribute="centerX" secondItem="RNi-RO-F2f" secondAttribute="centerX" id="dgB-6T-dtO"/>
+                            <constraint firstItem="TPw-6h-lSr" firstAttribute="centerY" secondItem="hlX-st-HSk" secondAttribute="centerY" id="eBt-mp-Prm"/>
+                            <constraint firstItem="hlX-st-HSk" firstAttribute="top" secondItem="cgB-Ek-Vmc" secondAttribute="bottom" constant="20" id="l7D-30-j1k"/>
+                            <constraint firstItem="uZL-XA-TTK" firstAttribute="centerY" secondItem="RNi-RO-F2f" secondAttribute="centerY" multiplier="0.5" id="rt5-7X-tsQ"/>
+                            <constraint firstItem="hlX-st-HSk" firstAttribute="bottom" secondItem="51o-et-nTv" secondAttribute="bottom" id="z98-X4-F2a"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
+                        <viewLayoutGuide key="safeArea" id="51o-et-nTv"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="750" y="360"/>
-        </scene>
-        <!--Tab Bar Controller-->
-        <scene sceneID="yl2-sM-qoP">
-            <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
-                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                    </tabBar>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <outlet property="alertLabel" destination="P40-dh-Ac6" id="n8V-3K-b5g"/>
+                        <outlet property="alertView" destination="cgB-Ek-Vmc" id="m7q-fm-2nU"/>
+                        <outlet property="graphIV" destination="hlX-st-HSk" id="hqI-aw-PLU"/>
+                        <outlet property="shakeIV" destination="Fxn-ed-ebh" id="RkX-b1-iyk"/>
+                        <outlet property="timeLabel" destination="Goe-nr-vKF" id="SW5-BW-bSo"/>
                     </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pvo-hz-zO5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="GbB-v8-9j4">
+                    <connections>
+                        <action selector="shakeTapped:" destination="m4g-NX-k81" id="oxK-o2-kRC"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="1050.7246376811595" y="-156.02678571428569"/>
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="seismograph" width="310" height="310"/>
+        <image name="shake" width="120" height="120"/>
     </resources>
 </document>

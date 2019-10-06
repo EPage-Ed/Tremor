@@ -3,29 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50A9782094EC1B131C11F80 /* Pods_Tremor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCBCC4C3F44813C7A58ECDA /* Pods_Tremor.framework */; };
 		D819BA4F234993C9008AEF35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D819BA4E234993C9008AEF35 /* AppDelegate.swift */; };
 		D819BA51234993C9008AEF35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D819BA50234993C9008AEF35 /* SceneDelegate.swift */; };
-		D819BA53234993C9008AEF35 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D819BA52234993C9008AEF35 /* FirstViewController.swift */; };
-		D819BA55234993C9008AEF35 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D819BA54234993C9008AEF35 /* SecondViewController.swift */; };
 		D819BA58234993C9008AEF35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D819BA56234993C9008AEF35 /* Main.storyboard */; };
 		D819BA5A234993CA008AEF35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D819BA59234993CA008AEF35 /* Assets.xcassets */; };
 		D819BA5D234993CA008AEF35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D819BA5B234993CA008AEF35 /* LaunchScreen.storyboard */; };
+		D819BA65234994EA008AEF35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D819BA64234994EA008AEF35 /* ViewController.swift */; };
+		D819BA6723499582008AEF35 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D819BA6623499582008AEF35 /* SplashVC.swift */; };
+		D819BA6A2349A25D008AEF35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D819BA692349A25D008AEF35 /* GoogleService-Info.plist */; };
+		D819BA6D2349ADB7008AEF35 /* alert.wav in Resources */ = {isa = PBXBuildFile; fileRef = D819BA6C2349ADB7008AEF35 /* alert.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ADD9A5C972C4913FDC26F4D1 /* Pods-Tremor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tremor.debug.xcconfig"; path = "Target Support Files/Pods-Tremor/Pods-Tremor.debug.xcconfig"; sourceTree = "<group>"; };
+		BC6F95A1F4C7F8E56AA9A1DF /* Pods-Tremor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tremor.release.xcconfig"; path = "Target Support Files/Pods-Tremor/Pods-Tremor.release.xcconfig"; sourceTree = "<group>"; };
 		D819BA4B234993C9008AEF35 /* Tremor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tremor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D819BA4E234993C9008AEF35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D819BA50234993C9008AEF35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D819BA52234993C9008AEF35 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		D819BA54234993C9008AEF35 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D819BA57234993C9008AEF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D819BA59234993CA008AEF35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D819BA5C234993CA008AEF35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D819BA5E234993CA008AEF35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D819BA64234994EA008AEF35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D819BA6623499582008AEF35 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		D819BA682349A1ED008AEF35 /* Tremor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tremor.entitlements; sourceTree = "<group>"; };
+		D819BA692349A25D008AEF35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D819BA6C2349ADB7008AEF35 /* alert.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alert.wav; sourceTree = "<group>"; };
+		D819BA6E234A4423008AEF35 /* index.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		DBCBCC4C3F44813C7A58ECDA /* Pods_Tremor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tremor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50A9782094EC1B131C11F80 /* Pods_Tremor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F9758E6960CD91C689CED2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADD9A5C972C4913FDC26F4D1 /* Pods-Tremor.debug.xcconfig */,
+				BC6F95A1F4C7F8E56AA9A1DF /* Pods-Tremor.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B378A1A4D9324825571258B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBCBCC4C3F44813C7A58ECDA /* Pods_Tremor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D819BA42234993C9008AEF35 = {
 			isa = PBXGroup;
 			children = (
 				D819BA4D234993C9008AEF35 /* Tremor */,
 				D819BA4C234993C9008AEF35 /* Products */,
+				8F9758E6960CD91C689CED2F /* Pods */,
+				B378A1A4D9324825571258B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +88,28 @@
 		D819BA4D234993C9008AEF35 /* Tremor */ = {
 			isa = PBXGroup;
 			children = (
+				D819BA682349A1ED008AEF35 /* Tremor.entitlements */,
 				D819BA4E234993C9008AEF35 /* AppDelegate.swift */,
+				D819BA6E234A4423008AEF35 /* index.js */,
+				D819BA64234994EA008AEF35 /* ViewController.swift */,
+				D819BA6623499582008AEF35 /* SplashVC.swift */,
 				D819BA50234993C9008AEF35 /* SceneDelegate.swift */,
-				D819BA52234993C9008AEF35 /* FirstViewController.swift */,
-				D819BA54234993C9008AEF35 /* SecondViewController.swift */,
 				D819BA56234993C9008AEF35 /* Main.storyboard */,
 				D819BA59234993CA008AEF35 /* Assets.xcassets */,
+				D819BA6B2349ADB7008AEF35 /* Sounds */,
 				D819BA5B234993CA008AEF35 /* LaunchScreen.storyboard */,
 				D819BA5E234993CA008AEF35 /* Info.plist */,
+				D819BA692349A25D008AEF35 /* GoogleService-Info.plist */,
 			);
 			path = Tremor;
+			sourceTree = "<group>";
+		};
+		D819BA6B2349ADB7008AEF35 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D819BA6C2349ADB7008AEF35 /* alert.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D819BA61234993CA008AEF35 /* Build configuration list for PBXNativeTarget "Tremor" */;
 			buildPhases = (
+				8FD575FDA516FA011B68819F /* [CP] Check Pods Manifest.lock */,
 				D819BA47234993C9008AEF35 /* Sources */,
 				D819BA48234993C9008AEF35 /* Frameworks */,
 				D819BA49234993C9008AEF35 /* Resources */,
+				95C3DF869A9EA9F5B8702DBF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +173,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D819BA5D234993CA008AEF35 /* LaunchScreen.storyboard in Resources */,
+				D819BA6D2349ADB7008AEF35 /* alert.wav in Resources */,
+				D819BA6A2349A25D008AEF35 /* GoogleService-Info.plist in Resources */,
 				D819BA5A234993CA008AEF35 /* Assets.xcassets in Resources */,
 				D819BA58234993C9008AEF35 /* Main.storyboard in Resources */,
 			);
@@ -136,13 +182,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8FD575FDA516FA011B68819F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tremor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C3DF869A9EA9F5B8702DBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tremor/Pods-Tremor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tremor/Pods-Tremor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tremor/Pods-Tremor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D819BA47234993C9008AEF35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D819BA55234993C9008AEF35 /* SecondViewController.swift in Sources */,
-				D819BA53234993C9008AEF35 /* FirstViewController.swift in Sources */,
+				D819BA65234994EA008AEF35 /* ViewController.swift in Sources */,
+				D819BA6723499582008AEF35 /* SplashVC.swift in Sources */,
 				D819BA4F234993C9008AEF35 /* AppDelegate.swift in Sources */,
 				D819BA51234993C9008AEF35 /* SceneDelegate.swift in Sources */,
 			);
@@ -286,8 +374,10 @@
 		};
 		D819BA62234993CA008AEF35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADD9A5C972C4913FDC26F4D1 /* Pods-Tremor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tremor/Tremor.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BY2NMR4CA;
 				INFOPLIST_FILE = Tremor/Info.plist;
@@ -298,14 +388,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.epage.Tremor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D819BA63234993CA008AEF35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC6F95A1F4C7F8E56AA9A1DF /* Pods-Tremor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Tremor/Tremor.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2BY2NMR4CA;
 				INFOPLIST_FILE = Tremor/Info.plist;
@@ -316,7 +408,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.epage.Tremor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
